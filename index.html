@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portofolio | Rizki Pratama</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="bg-secondary">
@@ -36,35 +37,32 @@
       </div>
     </nav>
     <section id="home">
-      <div class="container text-center">
+      <div class="container">
         <div class="row">
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 m-3">
             <h1>Hallo,</h1>
-            <h3>Nama saya Rizki Pratama</h3>
-            <h3>Saya adalah Mahasiswa</h3>
-            <h3>Teknik Informatika</h3>
-            <h3>Universitas Pasundan</h3>
+            <h2></h2>
           </div>
           <div class="col-md-4 m-3"></div>
           <div class="col"><img src="img/fotosaya1.jpg" alt="Rizki" class="border"></div>
         </div>
     </section>
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row text-center mb-4">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row text-center justify-content-center">
+        <div class="row text-center justify-content-center" data-aos="fade-up">
           <div class="col-md">
-            <p> Perkenalkan Nama saya Rizki Pratama saya sekarang seorang Mahasiswa Teknik Informatika Universitas Pasundan. Saya lahir di Bandung Pada tanggal 1 juni 2004, walaupun saya lahir di Bandung tapi saya tumbuh besar di Garut, jadi saya lebih familiar dengan kota Garut dari pada Bandung.</p>
+            <p> Perkenalkan Nama saya Rizki Pratama, saya adalah seorang Mahasiswa Teknik Informatika Universitas Pasundan. Saya lahir di Bandung Pada tanggal 1 juni 2004, walaupun saya lahir di Bandung tapi saya tumbuh besar di Garut, jadi saya lebih familiar dengan kota Garut dari pada Bandung.</p>
           </div>
         </div>
       </div>
     </section>
     <section id="graduate">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row text-center m-4">
           <div class="col">
             <h2>Graduate Of</h2>
@@ -73,7 +71,7 @@
         <div class="row text-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/mi.png" class="card-img-top" alt="Mi Al-Hikmah">
+              <img src="img/mi.png" class="card-img-top" alt="Mi Al-Hikmah" data-aos="fade-up-right" data-aos-delay="100">
               <div class="card-body">
                 <p class="card-text"><a href="https://referensi.data.kemdikbud.go.id/pendidikan/npsn/60708080">Mi Al-Hikmah</a></p>
               </div>
@@ -81,7 +79,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/smp.jpg" class="card-img-top" alt="Smpn 4 Tarogong Kidul">
+              <img src="img/smp.jpg" class="card-img-top" alt="Smpn 4 Tarogong Kidul" data-aos="fade-up" data-aos-delay="200">
               <div class="card-body">
                 <p class="card-text"><a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/00b73814-2cf5-e011-b55d-5f92f2fe1e47">Smpn 4 Tarogong Kidul</a></p>
               </div>
@@ -89,7 +87,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/sma.png" class="card-img-top" alt="Sma Pasundan 2 Cimahi">
+              <img src="img/sma.png" class="card-img-top" alt="Sma Pasundan 2 Cimahi" data-aos="fade-up-left" data-aos-delay="300">
               <div class="card-body">
                 <p class="card-text"><a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/f12e2d2f-6bfc-446c-87fc-d74b2f20d5ea">Sma Pasundan 2 Cimahi</a></p>
               </div>
@@ -108,7 +106,7 @@
         <div class="row text-center">
           <div class="col-md-6 mb-3">
             <div class="card" >
-              <img src="img/project1.png" class="card-img-top" alt="tugas company profil">
+              <img src="img/project1.png" class="card-img-top" alt="tugas company profil"  data-aos="zoom-out-right" data-aos-delay="300">
               <div class="card-body">
                 <p class="card-text"><a href="https://rizkipratama017.github.io/itw2022_project1_223040017/">Company Profil</a></p>
               </div>
@@ -116,7 +114,7 @@
           </div>
           <div class="col-md-6 mb-3">
             <div class="card">
-              <img src="img/project2.png" class="card-img-top" alt="tugas lightbox">
+              <img src="img/project2.png" class="card-img-top" alt="tugas lightbox"  data-aos="zoom-out-left" data-aos-delay="400">
               <div class="card-body">
                 <p class="card-text"><a href="#">Lightbox</a></p>
               </div>
@@ -142,7 +140,7 @@
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="email">
                 <div class="mb-3">
-                  <label for="pesan" class="form-label">Pesan</label>
+                  <label for="pesan" class="form-label mb-3">Pesan</label>
                   <textarea class="form-control" id="pesan" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Kirim</button>
@@ -156,5 +154,23 @@
       <p>Created by <a href="https://github.com/RizkiPratama017" class="text-white">Rizki Pratama</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin)
+      gsap.to("#home h2", {duration: 4, delay: 2, text: "Nama Saya Rizki Pratama, Saya Mahasiswa Teknik Informatika Unversitas Pasundan."})
+      gsap.from('nav', {
+        duration: 2, ease: "elastic.out(1, 0.3)", y: -100 
+      })
+      gsap.from('#home .container img', {
+        duration: 2, ease: "back.out(1.7)", y: -300 
+      })
+    </script>
   </body>
 </html>

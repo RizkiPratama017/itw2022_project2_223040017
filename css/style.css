@@ -2,9 +2,14 @@ section {
   padding-top: 6rem;
   padding-bottom: 4rem;
 }
-
+#home .container {
+  height: 600px;
+}
 #home .container img {
   width: 200px;
+}
+#about .container {
+  height: 600px;
 }
 #graduate .card img {
   height: 300px;
