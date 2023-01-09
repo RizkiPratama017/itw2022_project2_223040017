@@ -1,0 +1,51 @@
+/* body {
+  height: 3000px;
+} */
+section {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+#home .container {
+  height: 600px;
+}
+#home .container img {
+  width: 200px;
+}
+#about .container {
+  height: 600px;
+}
+#graduate .container {
+  height: 600px;
+}
+#graduate .card img {
+  height: 300px;
+}
+#graduate .card a {
+  text-decoration: none;
+  color: black;
+}
+#graduate .card a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+#project .container {
+  height: 600px;
+}
+#project .card img {
+  height: 300px;
+}
+#project .card a {
+  text-decoration: none;
+  color: black;
+}
+#project .card a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+footer a {
+  text-decoration: none;
+}
+footer a :hover {
+  text-decoration: underline;
+  color: blue;
+}
